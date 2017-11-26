@@ -1,0 +1,10 @@
+[package]
+name = "rust_shock"
+version = "0.1.0"
+authors = ["magnusi"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libloading = "0.4"
